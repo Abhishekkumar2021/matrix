@@ -9,7 +9,7 @@ function doSomething() {
 	ctx.strokeStyle = "green";
 	ctx.font = "18px monospace";
 	const characterSet =
-		"1  2  3  4  5  6  7  8  9  0   =  !  @  #  $  %  &  *  q  w  e  r  t  y  u  i  o  p  l  k  j  h  g  f  d  s  a  z  x  c  v  b  n  m  M  N  B  V  C  X  Z  A  S  F G  H  J  K L  P  O  I  U  Y  T  R  E  W  Q  ?";
+		"1 2 3 4 5 6 7 8 9 0  = ! @ # $ % & * q w e r t y u i o p l k j h g f d s a z x c v b n m M N B V C X Z A S F G H J K L P O I U Y T R E W Q ?";
 	const l = characterSet.length;
 	const randomChracter = () => {
 		return characterSet[Math.floor(Math.random() * l)];
