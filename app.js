@@ -3,8 +3,8 @@ const ctx = canvas.getContext("2d");
 let id;
 
 function doSomething() {
-	canvas.width = window.innerWidth;
-	canvas.height = window.innerHeight;
+	canvas.width = 0.99*window.innerWidth;
+	canvas.height = 0.99*window.innerHeight;
 	ctx.fillStyle = "lightgreen";
 	ctx.strokeStyle = "green";
 	ctx.font = "18px monospace";
